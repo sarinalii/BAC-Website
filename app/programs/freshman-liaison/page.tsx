@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 export default function FreshmanLiaisonPage() {
   return (
@@ -29,6 +30,13 @@ export default function FreshmanLiaisonPage() {
               participants develop technical skills in tools like Python, SQL, and Figma while gaining early exposure to
               different career pathways.
             </p>
+            <Button 
+              asChild
+              size="lg"
+              className="mt-8 font-semibold shadow-2xl hover:shadow-3xl hover:scale-105 transition-all h-14 px-10 text-lg"
+            >
+              <a href="https://forms.gle/nMZJMrYTaFmNT6sc9">Apply Now!</a>
+            </Button>
           </div>
         </div>
       </section>
