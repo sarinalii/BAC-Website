@@ -37,8 +37,7 @@ export default function MachineLearningPage() {
               machine learning team<span className="header-period">.</span>
             </h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-foreground/80 max-w-4xl leading-relaxed text-balance">
-              The Machine Learning Team offers hands-on experience in machine learning and data science through technical workshops
-              and a semester-long capstone project.
+              the machine learning program is meant for students with an interest in coding, building intelligent systems, and applying data-driven models to real-world business and technical problems. through hands-on projects, invigorating lectures, and applicable deliverables, participants develop a strong foundation in machine learning concepts, python-based modeling, and applied ai, while exploring how ml is used across industries.
             </p>
           </div>
         </div>
@@ -54,39 +53,52 @@ export default function MachineLearningPage() {
                 program description<span className="header-period">.</span>
               </CardTitle>
               <CardDescription className="text-xl sm:text-2xl leading-relaxed">
-                Build and deploy machine learning models while learning cutting-edge AI techniques.
+                develop skills in applying state of the art models while working with experienced leaders in the machine learning and tech fields.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-10">
-              <ul className="space-y-8">
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Learn and apply machine learning techniques, including regression, classification, and clustering,
-                    using Python libraries like Scikit-learn and TensorFlow.
-                  </span>
-                </li>
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Explore real-world applications of AI such as sentiment analysis, predictive modeling, and
-                    recommendation systems.
-                  </span>
-                </li>
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Collaborate with peers to build a final machine learning project that showcases both technical and
-                    analytical skills.
-                  </span>
-                </li>
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Present project results to the club and receive feedback from faculty advisors and industry mentors.
-                  </span>
-                </li>
-              </ul>
+            <CardContent className="space-y-12">
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  technical training<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  learn the foundations of essential machine learning models, including supervised and unsupervised learning, feature engineering, model evaluation, and basic deep learning using tools taught during the program, such as pytorch, tensorflow, cuda, and huggingface.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  applied projects<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  work in small teams with an experienced project manager guiding you through designing, training, and deploying machine learning models on real datasets to solve real-world problems.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  post grad<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  after graduating from the project, you’ll have the opportunity to work directly with corporate sponsors(imasons, cato.ai, ocp, etc.) and go to leading tech conferences.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  community involvement<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  join a collaborative cohort of students passionate about machine learning, contribute to workshops and events, and become part of the broader analytics and ai community at nyu.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  example projects<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl italic">Coming soon...</p>
+              </div>
             </CardContent>
           </Card>
         </div>

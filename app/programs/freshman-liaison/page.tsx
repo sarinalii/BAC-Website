@@ -96,7 +96,7 @@ export default function FreshmanLiaisonPage() {
                 </p>
               </div>
 
-              <div className="pt-8 space-y-5">
+              <div className="space-y-5">
                 <h3 className="font-bold text-3xl">
                   example projects<span className="header-period">.</span>
                 </h3>
