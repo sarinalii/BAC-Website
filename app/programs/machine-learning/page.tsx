@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 export default function MachineLearningPage() {
   return (
@@ -39,6 +40,13 @@ export default function MachineLearningPage() {
             <p className="text-lg sm:text-xl lg:text-2xl text-foreground/80 max-w-4xl leading-relaxed text-balance">
               the machine learning program is meant for students with an interest in coding, building intelligent systems, and applying data-driven models to real-world business and technical problems. through hands-on projects, invigorating lectures, and applicable deliverables, participants develop a strong foundation in machine learning concepts, python-based modeling, and applied ai, while exploring how ml is used across industries.
             </p>
+            <Button 
+              asChild
+              size="lg"
+              className="mt-8 font-semibold shadow-2xl hover:shadow-3xl hover:scale-105 transition-all h-14 px-10 text-lg"
+            >
+              <a href="https://forms.gle/h2VFZoywQ1GfhjoX8">Apply Now!</a>
+            </Button>
           </div>
         </div>
       </section>

@@ -30,13 +30,9 @@ export default function FreshmanLiaisonPage() {
               participants develop technical skills in tools like Python, SQL, and Figma while gaining early exposure to
               different career pathways.
             </p>
-            <Button 
-              asChild
-              size="lg"
-              className="mt-8 font-semibold shadow-2xl hover:shadow-3xl hover:scale-105 transition-all h-14 px-10 text-lg"
-            >
-              <a href="https://forms.gle/nMZJMrYTaFmNT6sc9">Apply Now!</a>
-            </Button>
+            <p className="text-lg sm:text-xl lg:text-2xl text-foreground/80 max-w-4xl leading-relaxed text-balance italic mt-8">
+              Our application for Spring, 2026 has closed, but we encourage you to apply in the future and attend our general meetings!
+            </p>
           </div>
         </div>
       </section>

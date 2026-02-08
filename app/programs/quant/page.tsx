@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 export default function QuantTeamPage() {
   return (
@@ -30,9 +31,15 @@ export default function QuantTeamPage() {
               quant team<span className="header-period">.</span>
             </h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-foreground/80 max-w-4xl leading-relaxed text-balance">
-              The Quant Team prepares students for careers in quantitative finance and trading through applied math,
-              coding, and market simulation exercises.
+              The Quant team is designed for students interested in exploring the world of quantitative trading. Members learn about trading through hands on trading games, practice in probability and small statistics projects. Learn about quant from people who have successfully recruited and participated in trading internships!
             </p>
+            <Button 
+              asChild
+              size="lg"
+              className="mt-8 font-semibold shadow-2xl hover:shadow-3xl hover:scale-105 transition-all h-14 px-10 text-lg"
+            >
+              <a href="https://forms.gle/SWuU8Hke6o9g7R9p6">Apply Now!</a>
+            </Button>
           </div>
         </div>
       </section>
@@ -47,33 +54,45 @@ export default function QuantTeamPage() {
                 program description<span className="header-period">.</span>
               </CardTitle>
               <CardDescription className="text-xl sm:text-2xl leading-relaxed">
-                Develop quantitative trading strategies and prepare for careers in finance and trading.
+                Prepare for a career in quantitative finance and learn about the industry as a whole.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-10">
-              <ul className="space-y-8">
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Participate in trading simulations and probability-based challenges to develop fast, analytical
-                    thinking.
-                  </span>
-                </li>
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Learn the fundamentals of quantitative trading strategies, market microstructure, and risk
-                    management.
-                  </span>
-                </li>
-                <li className="flex gap-6 leading-relaxed text-xl">
-                  <span className="text-[rgb(72,134,159)] mt-2 text-3xl font-bold">•</span>
-                  <span className="text-foreground/80">
-                    Gain exposure to interview-style problem solving and technical questions used by trading firms and
-                    hedge funds.
-                  </span>
-                </li>
-              </ul>
+            <CardContent className="space-y-12">
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  professional development<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  Participate in trading simulations and probability based games to develop fast, analytical thinking.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  mentorship<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  Learn from past and incoming interns about their experiences in their academic lives, recruiting, and their internships.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  community involvement<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  Join a network of highly driven and extremely motivated students looking to grow together.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <h3 className="font-bold text-3xl">
+                  networking<span className="header-period">.</span>
+                </h3>
+                <p className="text-foreground/80 leading-relaxed text-xl">
+                  Visit trading firms’ offices in New York, and understand what goes on day-to-day at a trading firm.
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>

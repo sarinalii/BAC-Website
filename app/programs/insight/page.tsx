@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 export default function InsightTeamPage() {
   return (
@@ -21,9 +22,15 @@ export default function InsightTeamPage() {
               insight team<span className="header-period">.</span>
             </h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-foreground/80 max-w-4xl leading-relaxed text-balance">
-              An advanced, project-based program where members apply analytics to real-world business problems and
-              present actionable insights.
+              The Insight Team is a data analytics program open to students of all semesters who are passionate about data and technology. Through lectures, hands-on projects, teamwork, and mentorship from industry professionals, participants develop technical skills in data modeling, Python, predictive modeling techniques, and visualization tools, while building professional development skills for data driven careers.
             </p>
+            <Button 
+              asChild
+              size="lg"
+              className="mt-8 font-semibold shadow-2xl hover:shadow-3xl hover:scale-105 transition-all h-14 px-10 text-lg"
+            >
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsYKlKIBxab5Mm7kTv00NB9nZWRQpBkVTL_mgf2F4yk43JTA/viewform?usp=dialog">Apply Now!</a>
+            </Button>
           </div>
         </div>
       </section>
