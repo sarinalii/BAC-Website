@@ -1,0 +1,213 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+
+  --background: #ffffff;
+  --foreground: #111820;
+
+  --card: #ffffff;
+  --card-foreground: #111820;
+
+  --popover: #ffffff;
+  --popover-foreground: #111820;
+
+  --primary: #6bc9af;
+  --primary-foreground: #111820;
+
+  --secondary: #e8edf0;
+  --secondary-foreground: #344554;
+
+  --muted: #f5f6f6;
+  --muted-foreground: #68798a;
+
+  --accent: #dff5ed;
+  --accent-foreground: #111820;
+
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+
+  --border: #d8dddf;
+  --input: #d8dddf;
+  --input-background: #ffffff;
+
+  --switch-background: #b9c1c7;
+
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+
+  --ring: #6bc9af;
+
+  --chart-1: #6bc9af;
+  --chart-2: #68798a;
+  --chart-3: #344554;
+  --chart-4: #3fae91;
+  --chart-5: #9aa8b3;
+
+  /*
+    Intentionally square.
+    Individual components can opt into a tiny radius if necessary.
+  */
+  --radius: 0rem;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #111820;
+  --sidebar-primary: #6bc9af;
+  --sidebar-primary-foreground: #111820;
+  --sidebar-accent: #dff5ed;
+  --sidebar-accent-foreground: #111820;
+  --sidebar-border: #d8dddf;
+  --sidebar-ring: #6bc9af;
+}
+
+.dark {
+  --background: #111820;
+  --foreground: #ffffff;
+
+  --card: #18212a;
+  --card-foreground: #ffffff;
+
+  --popover: #18212a;
+  --popover-foreground: #ffffff;
+
+  --primary: #6bc9af;
+  --primary-foreground: #111820;
+
+  --secondary: #344554;
+  --secondary-foreground: #ffffff;
+
+  --muted: #26323d;
+  --muted-foreground: #aeb7be;
+
+  --accent: #344554;
+  --accent-foreground: #ffffff;
+
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+
+  --border: rgba(255, 255, 255, 0.16);
+  --input: rgba(255, 255, 255, 0.16);
+
+  --ring: #6bc9af;
+
+  --sidebar: #18212a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #6bc9af;
+  --sidebar-primary-foreground: #111820;
+  --sidebar-accent: #344554;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.16);
+  --sidebar-ring: #6bc9af;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --radius-sm: var(--radius);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius);
+  --radius-xl: var(--radius);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    margin: 0;
+    font-family:
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin-top: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family:
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  button {
+    font-weight: var(--font-weight-medium);
+  }
+
+  input {
+    font-weight: var(--font-weight-normal);
+  }
+}

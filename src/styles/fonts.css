@@ -1,0 +1,29 @@
+/*
+  BAC typography
+
+  Use a clean neutral sans-serif stack that complements
+  the thin geometric BAC logo rather than competing with it.
+
+  No external font download is necessary.
+*/
+
+:root {
+  --bac-font-sans:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--bac-font-sans);
+}
